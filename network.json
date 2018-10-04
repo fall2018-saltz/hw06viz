@@ -23,12 +23,12 @@
             "ports": [
                 {
                     "input": "arrests",
-                    "output": "arrests",
+                    "output": "arrests.csv",
                     "type": "r_obj"
                 },
                 {
                     "input": "popState",
-                    "output": "popState",
+                    "output": "popState.csv",
                     "type": "r_obj"
                 }
             ],
@@ -56,6 +56,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 18:53:14",
+    "updated_at": "2018-10-04 18:56:05",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
