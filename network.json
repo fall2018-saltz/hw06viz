@@ -25,8 +25,11 @@
         {
             "desc": "",
             "name": "MergeArrests.R"
+        },
+        {
+            "name": "cleanData.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:36:58",
+    "updated_at": "2018-10-04 15:37:24",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
