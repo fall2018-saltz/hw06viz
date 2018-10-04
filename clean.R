@@ -15,4 +15,5 @@ mergedDF2 <- mergedDF[ -c(1) ]
 head(mergedDF2)
 
 # Step B: Explore the Data – Understanding distributions
-# 4) Create a histogram using GGPLOT for the population and a different histogram for the murder rate
+# 4) Create a histogram using GGPLOT for the population and 
+# a different histogram for the murder rate
