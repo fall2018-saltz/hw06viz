@@ -2,20 +2,18 @@
 #Step A: Load and Merge datasets
 #1)	Read in the census dataset (using the function created in HW 3)
 population <- row_data
-head(population)
-tail(population)
 my_func <- function(population)
 {
     population <- population[-c(-1,-53),-c(1,2,3,4)]
     colnames(population) <- c("stateNames","population","popOver18","percentOver18")
     return(population)
 }
-
+population <- my_func(population)
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests <- USArrests
 head(arrests)
 #3) Create a merged dataframe -- with the attributes from both dataframes
-row.names(population) <- population$NAME
+row.names(population) <- population$
 mergedDF <- merge(population, arrests, by=0, all=TRUE)
 head(mergedDF)
 # Drop the Row.names column
