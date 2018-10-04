@@ -28,6 +28,7 @@ library(ggplot)
 myPlot <- ggplot(mergedDF2)
 myPlot <- myPlot + aes(x=population)
 myPlot <- myPlot + geom_histogram(binwidth=1)
+myPlot
 
 
 
