@@ -11,3 +11,4 @@ row.names(population) <- population$NAME
 mergedDF <- merge(population, arrests, by=0, all=TRUE)
 head(mergedDF)
 # Drop the Row.names column
+mergedDF <- mergedDF[ -c(1) ]
