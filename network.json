@@ -22,6 +22,7 @@
         {
             "ports": [
                 {
+                    "input": "arrests, popState",
                     "output": "arrests, popState",
                     "type": "r_obj"
                 }
@@ -48,6 +49,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 18:50:45",
+    "updated_at": "2018-10-04 18:51:43",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
