@@ -4,6 +4,7 @@
 population <- row_data
 head(population)
 my_func <- function(population)
+{}
 
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests <- USArrests
