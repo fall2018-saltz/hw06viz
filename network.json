@@ -7,8 +7,11 @@
     "nodes": [
         {
             "name": "clean.R"
+        },
+        {
+            "name": "dataSet.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:14:29",
+    "updated_at": "2018-10-04 15:19:30",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
