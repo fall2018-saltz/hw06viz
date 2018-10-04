@@ -8,6 +8,7 @@ my_func <- function(population)
 {
     population <- population[-c(-1,-53),-c(1,2,3,4)]
     colnames(population) <- c("stateNames","population","popOver18","percentOver18")
+    return(population)
 }
 
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
