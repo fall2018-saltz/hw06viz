@@ -4,7 +4,7 @@
 population <- row_data
 my_func <- function(population)
 {
-    population <- population[-c(-1,-53),-c(1,2,3,4)]
+    population <- population[-c(1,53),-c(1,2,3,4)]
     colnames(population) <- c("stateNames","population","popOver18","percentOver18")
     return(population)
 }
