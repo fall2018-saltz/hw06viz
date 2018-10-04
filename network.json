@@ -6,11 +6,6 @@
     "edges": [
         {
             "ports": [],
-            "source": "clean.R",
-            "target": "MergeArrests.R"
-        },
-        {
-            "ports": [],
             "source": "MergeArrests.R",
             "target": "cleanData.csv"
         },
@@ -23,6 +18,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrests, popState",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -43,6 +48,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:46:46",
+    "updated_at": "2018-10-04 18:50:45",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
