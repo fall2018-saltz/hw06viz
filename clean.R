@@ -9,11 +9,12 @@ my_func <- function(population)
     return(population)
 }
 population <- my_func(population)
+head(population)
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests <- USArrests
 head(arrests)
 #3) Create a merged dataframe -- with the attributes from both dataframes
-row.names(population) <- population$
+row.names(population) <- population$stateNames
 mergedDF <- merge(population, arrests, by=0, all=TRUE)
 head(mergedDF)
 # Drop the Row.names column
