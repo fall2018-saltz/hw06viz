@@ -17,4 +17,5 @@ head(mergedDF2)
 # Step B: Explore the Data – Understanding distributions
 # 4) Create a histogram using GGPLOT for the population and 
 # a different histogram for the murder rate
-myPlot <- ggplot
+library(ggplot)
+myPlot <- ggplot(mergedDF2)
