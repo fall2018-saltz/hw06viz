@@ -7,9 +7,5 @@ head(population)
 arrests <- USArrests
 head(arrests)
 #3) Create a merged dataframe -- with the attributes from both dataframes
-arrests[0,]
-arrests[-c(0), ]
-head(arrests)
-# poparr <- merge(population, arrests)
-# head(poparr)
+row.names(population) <- population$NAME
 
