@@ -6,7 +6,7 @@ head(population)
 tail(population)
 my_func <- function(population)
 {
-    population
+    population <- population[-c(-1,-53),-c(1,2,3,4)]
 }
 
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
