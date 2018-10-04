@@ -19,3 +19,9 @@ head(mergedDF2)
 # a different histogram for the murder rate
 library(ggplot)
 myPlot <- ggplot(mergedDF2)
+myPlot <- myPlot + aes(x=)
+
+
+
+
+
