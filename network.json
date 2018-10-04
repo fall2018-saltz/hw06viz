@@ -6,7 +6,7 @@
     "edges": [
         {
             "ports": [],
-            "source": "dataSet.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         }
     ],
@@ -15,9 +15,9 @@
             "name": "clean.R"
         },
         {
-            "name": "dataSet.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:19:56",
+    "updated_at": "2018-10-04 15:36:06",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
