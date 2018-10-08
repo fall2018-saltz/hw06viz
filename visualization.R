@@ -19,3 +19,17 @@ myPlot2
 #Then build similar code to create histograms of each of the other
 #three variables in the merged data frame. 
 #What parameter will you have to adjust to make the other histograms look right?
+#Answer: Adjust the x value to make the histograms look right.
+#Assault
+myPlot3 <- ggplot(merged)
+myPlot3 <- myPlot3 + aes(x=Assault)
+myPlot3 <- myPlot3 + geom_histogram(bins = 30)
+myPlot3
+
+
+
+
+
+
+
+
