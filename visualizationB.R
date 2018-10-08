@@ -39,7 +39,7 @@ myPlot5 <- myPlot5 + geom_histogram(bins = 30)
 myPlot5
 
 #5) Create a boxplot for the population
-myPlot6 <- ggplot(merged,aes(y = population, x = stateNames)) + geom_boxplot()
+myPlot6 <- ggplot(merged,aes(y = population)) + geom_boxplot()
 myPlot6
 
 #and a different boxplot for the murder rate.
