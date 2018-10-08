@@ -1,7 +1,6 @@
 
 # Step B: Explore the Data – Understanding distributions
 # 4) Create a histogram using GGPLOT for the population 
-
 merged <- mergedDF2
 tail(merged)
 library(ggplot2)
