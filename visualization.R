@@ -26,7 +26,11 @@ myPlot3 <- myPlot3 + aes(x=Assault)
 myPlot3 <- myPlot3 + geom_histogram(bins = 30)
 myPlot3
 
-
+#UrbanPop
+myPlot4 <- ggplot(merged)
+myPlot4 <- myPlot4 + aes(x=UrbanPop)
+myPlot4 <- myPlot4 + geom_histogram(bins = 30)
+myPlot4
 
 
 
