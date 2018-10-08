@@ -100,17 +100,6 @@
             ],
             "source": "MergeArrests.R",
             "target": "visualizationB.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "megeredDF2",
-                    "output": "megeredDF2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "visualizationC.R"
         }
     ],
     "nodes": [
@@ -151,15 +140,9 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "xsong21",
-            "desc": "",
-            "name": "visualizationC.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "populationBox.png"
         }
     ],
-    "updated_at": "2018-10-08 16:08:33",
+    "updated_at": "2018-10-08 16:10:43",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
