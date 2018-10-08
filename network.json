@@ -131,6 +131,16 @@
             ],
             "source": "visualizationC.R",
             "target": "total_murder_no_title.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot9",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Total_Murders.png"
         }
     ],
     "nodes": [
@@ -189,6 +199,6 @@
             "name": "Total_Murders.png"
         }
     ],
-    "updated_at": "2018-10-08 16:53:45",
+    "updated_at": "2018-10-08 16:53:55",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
