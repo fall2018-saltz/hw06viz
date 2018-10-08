@@ -76,8 +76,11 @@
         },
         {
             "name": "population.png"
+        },
+        {
+            "name": "murder.png"
         }
     ],
-    "updated_at": "2018-10-08 15:29:30",
+    "updated_at": "2018-10-08 15:30:56",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
