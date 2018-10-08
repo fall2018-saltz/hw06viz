@@ -27,5 +27,8 @@ myPlot10 = myPlot10 + theme(axis.text.x = element_text(angle = 90))
 myPlot10 = myPlot10 + geom_col() + ggtitle("Total Murders")
 myPlot10
 
+#5) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
+
+
 
 
