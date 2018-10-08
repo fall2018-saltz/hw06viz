@@ -9,3 +9,5 @@ myPlot <- ggplot(merged)
 myPlot <- myPlot + aes(x=population)
 myPlot <- myPlot + geom_histogram(binwidth=1)
 myPlot
+
+myPlot2 <- ggplot(merged)
