@@ -3,7 +3,7 @@
 merged <- mergedDF2
 tail(merged)
 library(ggplot2)
-options(scipen=999)
+
 
 #Step C: Which State had the Most Murders – bar charts
 #1)	Calculate the number of murders per state
