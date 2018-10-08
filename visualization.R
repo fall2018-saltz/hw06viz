@@ -32,6 +32,12 @@ myPlot4 <- myPlot4 + aes(x=UrbanPop)
 myPlot4 <- myPlot4 + geom_histogram(bins = 30)
 myPlot4
 
+#Rape
+myPlot5 <- ggplot(merged)
+myPlot5 <- myPlot5 + aes(x=Rape)
+myPlot5 <- myPlot5 + geom_histogram(bins = 30)
+myPlot5
+
 
 
 
