@@ -38,7 +38,8 @@ myPlot5 <- myPlot5 + aes(x=Rape)
 myPlot5 <- myPlot5 + geom_histogram(bins = 30)
 myPlot5
 
-#5) Create a boxplot for the population, and a different boxplot for the murder rate.
+#5) Create a boxplot for the population
+#and a different boxplot for the murder rate.
 
 
 
