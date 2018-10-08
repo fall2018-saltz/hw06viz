@@ -20,6 +20,10 @@ myPlot2
 #three variables in the merged data frame. 
 #What parameter will you have to adjust to make the other histograms look right?
 #Assault
+myPlot2 <- ggplot(merged)
+myPlot2 <- myPlot2 + aes(x=Assault)
+myPlot2 <- myPlot2 + geom_histogram(bins = 30)
+myPlot2
 
 
 
