@@ -43,6 +43,7 @@
         {
             "ports": [
                 {
+                    "input": "mergedDF2",
                     "output": "mergedDF2",
                     "type": "r_obj"
                 }
@@ -77,6 +78,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-08 15:29:11",
+    "updated_at": "2018-10-08 15:29:30",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
