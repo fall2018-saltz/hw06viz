@@ -197,8 +197,11 @@
         },
         {
             "name": "Total_Murders.png"
+        },
+        {
+            "name": "order_total_murder.png"
         }
     ],
-    "updated_at": "2018-10-08 16:54:16",
+    "updated_at": "2018-10-08 17:00:41",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
