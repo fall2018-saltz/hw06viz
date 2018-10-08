@@ -162,6 +162,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "visualizationD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot12",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationD.R",
+            "target": "scatter_pop_percent_murder.png"
         }
     ],
     "nodes": [
@@ -232,6 +242,6 @@
             "name": "scatter_pop_percent_murder.png"
         }
     ],
-    "updated_at": "2018-10-08 17:13:58",
+    "updated_at": "2018-10-08 17:14:09",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
