@@ -83,17 +83,6 @@
         {
             "ports": [
                 {
-                    "input": "megeredDF2",
-                    "output": "megeredDF2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "visualizationC.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "myPlot6",
                     "type": "png"
                 }
@@ -111,6 +100,17 @@
             ],
             "source": "MergeArrests.R",
             "target": "visualizationB.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "megeredDF2",
+                    "output": "megeredDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationC.R"
         }
     ],
     "nodes": [
@@ -160,6 +160,6 @@
             "name": "populationBox.png"
         }
     ],
-    "updated_at": "2018-10-08 16:08:22",
+    "updated_at": "2018-10-08 16:08:33",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
