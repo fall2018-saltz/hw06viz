@@ -31,11 +31,6 @@
             "target": "MergeArrests.R"
         },
         {
-            "ports": [],
-            "source": "cleanData.csv",
-            "target": "visualization.R"
-        },
-        {
             "ports": [
                 {
                     "output": "mergedDF2",
@@ -44,6 +39,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "cleanData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "visualization.R"
         }
     ],
     "nodes": [
@@ -72,6 +77,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-08 14:38:23",
+    "updated_at": "2018-10-08 14:38:46",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
