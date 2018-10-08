@@ -60,6 +60,16 @@
             ],
             "source": "visualization.R",
             "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot3",
+                    "type": "png"
+                }
+            ],
+            "source": "visualization.R",
+            "target": "Assault.png"
         }
     ],
     "nodes": [
@@ -94,6 +104,6 @@
             "name": "Assault.png"
         }
     ],
-    "updated_at": "2018-10-08 15:37:54",
+    "updated_at": "2018-10-08 15:38:02",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
