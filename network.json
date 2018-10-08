@@ -141,6 +141,16 @@
             ],
             "source": "visualizationC.R",
             "target": "Total_Murders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot10",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationC.R",
+            "target": "order_total_murder.png"
         }
     ],
     "nodes": [
@@ -202,6 +212,6 @@
             "name": "order_total_murder.png"
         }
     ],
-    "updated_at": "2018-10-08 17:00:41",
+    "updated_at": "2018-10-08 17:00:53",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
