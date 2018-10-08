@@ -6,4 +6,5 @@ library(ggplot2)
 merged$MurderNumber <- merged$Murder * 1000000
 head(merged)
 myPlot8 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
+myPlot8 = myPlot8 + theme(axis.title.x = element_text(angle = 90))
 myPlot8
