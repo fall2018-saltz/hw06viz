@@ -19,9 +19,12 @@ myPlot9 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
 myPlot9 = myPlot9 + theme(axis.text.x = element_text(angle = 90))
 myPlot9 = myPlot9 + geom_col() + ggtitle("Total Murders")
 myPlot9
-#4)Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-
-
+#4)Generate a new bar chart, the same as in the previous step,
+#but also sort the x-axis by the murder rate
+myPlot10 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
+myPlot10 = myPlot10 + theme(axis.text.x = element_text(angle = 90))
+myPlot10 = myPlot10 + geom_col() + ggtitle("Total Murders")
+myPlot10
 
 
 
