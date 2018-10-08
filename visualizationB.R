@@ -40,7 +40,7 @@ myPlot5
 
 #5) Create a boxplot for the population
 myPlot6 <- ggplot(merged,aes(x=population)) + geom_boxplot()
-
+myPlot6
 
 #and a different boxplot for the murder rate.
 
