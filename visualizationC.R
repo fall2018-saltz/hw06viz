@@ -15,4 +15,7 @@ myPlot8
 #3)Generate a bar chart, with the number of murders per state. 
 #Rotate text (on the X axis), so we can see x labels, 
 #also add a title named “Total Murders”.
-myPlot8 = myPlot8 + theme(axis.text.x = element_text(angle = 90))
+myPlot9 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
+myPlot9 = myPlot9 + theme(axis.text.x = element_text(angle = 90))
+myPlot9 = myPlot9 +geom_col()
+myPlot9
