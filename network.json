@@ -33,26 +33,6 @@
         {
             "ports": [
                 {
-                    "output": "mergedDF2",
-                    "type": "csv"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "cleanData.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanData",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleanData.csv",
-            "target": "visualization.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "myPlot",
                     "type": "png"
                 }
@@ -72,9 +52,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "cleanData.csv"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "",
             "name": "clean.R",
@@ -90,6 +67,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-08 14:55:49",
+    "updated_at": "2018-10-08 15:28:44",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
