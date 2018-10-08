@@ -223,10 +223,15 @@
             "name": "order_total_murder.png"
         },
         {
+            "assigned_to": "xsong21",
             "desc": "",
-            "name": "visualizationD.R"
+            "name": "visualizationD.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter_pop_percent_murder.png"
         }
     ],
-    "updated_at": "2018-10-08 17:08:58",
+    "updated_at": "2018-10-08 17:13:58",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
