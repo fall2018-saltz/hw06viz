@@ -151,6 +151,17 @@
             ],
             "source": "visualizationC.R",
             "target": "order_total_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDF2",
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationD.R"
         }
     ],
     "nodes": [
@@ -216,6 +227,6 @@
             "name": "visualizationD.R"
         }
     ],
-    "updated_at": "2018-10-08 17:08:41",
+    "updated_at": "2018-10-08 17:08:58",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
