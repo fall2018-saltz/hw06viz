@@ -17,7 +17,7 @@ myPlot8
 #also add a title named “Total Murders”.
 myPlot9 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
 myPlot9 = myPlot9 + theme(axis.text.x = element_text(angle = 90))
-myPlot9 = myPlot9 +geom_col()+ggtitle("Total Murders")
+myPlot9 = myPlot9 + geom_col() + ggtitle("Total Murders")
 myPlot9
 
 
