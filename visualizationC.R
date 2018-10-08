@@ -12,7 +12,6 @@ library(ggplot2)
 merged$MurderNumber <- merged$Murder * 1000000
 head(merged)
 #Generate a bar chart, with the number of murders per state Hint: use the geom_col function
-
 myPlot8 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
 myPlot8 = myPlot8 + theme(axis.text.x = element_text(angle = 90))
 myPlot8 = myPlot8 +geom_col()
