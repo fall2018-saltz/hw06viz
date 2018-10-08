@@ -49,6 +49,16 @@
             ],
             "source": "cleanData.csv",
             "target": "visualization.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "visualization.R",
+            "target": "population.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-08 14:55:35",
+    "updated_at": "2018-10-08 14:55:49",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
