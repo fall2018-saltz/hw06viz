@@ -49,7 +49,7 @@ myPlot7
 #6) Create a block comment explaining which visualization (boxplot or histogram) 
 #you thought was more helpful (explain why)
 #Answer: boxplots are more useful. Because it tells you the maximum, minimum 
-#median, 95% quartile, 5% quartile and outliers directly.
+#median, third quartile, first quartile and outliers directly.
 
 
 
