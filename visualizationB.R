@@ -4,7 +4,7 @@
 merged <- mergedDF2
 tail(merged)
 library(ggplot2)
-options(scipen=999)
+
 myPlot <- ggplot(merged)
 myPlot <- myPlot + aes(x=population)
 myPlot <- myPlot + geom_histogram(bins = 30)
