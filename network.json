@@ -39,6 +39,11 @@
             ],
             "source": "visualization.R",
             "target": "population.png"
+        },
+        {
+            "ports": [],
+            "source": "MergeArrests.R",
+            "target": "visualization.R"
         }
     ],
     "nodes": [
@@ -67,6 +72,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-08 15:28:44",
+    "updated_at": "2018-10-08 15:28:56",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
