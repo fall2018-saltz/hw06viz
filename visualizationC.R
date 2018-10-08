@@ -19,3 +19,9 @@ myPlot9 <- ggplot(merged,aes(x=stateNames,y=MurderNumber))
 myPlot9 = myPlot9 + theme(axis.text.x = element_text(angle = 90))
 myPlot9 = myPlot9 +geom_col()
 myPlot9
+
+
+
+
+
+
