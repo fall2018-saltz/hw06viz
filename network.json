@@ -33,32 +33,155 @@
         {
             "ports": [
                 {
-                    "output": "mergedDF2",
-                    "type": "csv"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "cleanData.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanData",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleanData.csv",
-            "target": "visualization.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "myPlot",
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot2",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot3",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "Assault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot4",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "UrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot5",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "Rape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot6",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "populationBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDF2",
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationB.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot7",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "MurderBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDF2",
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot8",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationC.R",
+            "target": "total_murder_no_title.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot9",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationC.R",
+            "target": "Total_Murders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot10",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationC.R",
+            "target": "order_total_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDF2",
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot12",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationD.R",
+            "target": "scatter_pop_percent_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot11",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationC.R",
+            "target": "Total_Murders_order_percentOver18.png"
         }
     ],
     "nodes": [
@@ -72,24 +195,66 @@
             "task_status": "in progress"
         },
         {
-            "name": "cleanData.csv"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         },
         {
+            "name": "population.png"
+        },
+        {
+            "name": "murder.png"
+        },
+        {
+            "name": "Assault.png"
+        },
+        {
+            "name": "UrbanPop.png"
+        },
+        {
+            "name": "Rape.png"
+        },
+        {
             "assigned_to": "xsong21",
             "desc": "",
-            "name": "visualization.R",
+            "name": "visualizationB.R",
             "task_status": "in progress"
         },
         {
-            "name": "population.png"
+            "name": "populationBox.png"
+        },
+        {
+            "name": "MurderBox.png"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "",
+            "name": "visualizationC.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "total_murder_no_title.png"
+        },
+        {
+            "name": "Total_Murders.png"
+        },
+        {
+            "name": "order_total_murder.png"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "",
+            "name": "visualizationD.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter_pop_percent_murder.png"
+        },
+        {
+            "name": "Total_Murders_order_percentOver18.png"
         }
     ],
-    "updated_at": "2018-10-08 14:55:49",
+    "updated_at": "2018-10-08 20:09:22",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }

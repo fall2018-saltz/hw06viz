@@ -16,10 +16,3 @@ head(arrests)
 
 popState
 arrests
-#write.csv(popState, file = "popState.csv")
-#write.csv(arrests, file = "arrests.csv")
-
-
-
-
-
