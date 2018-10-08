@@ -8,5 +8,5 @@ head(mergedDF)
 # Drop the Row.names column
 mergedDF2 <- mergedDF[ -c(1) ]
 head(mergedDF2)
-
+mergedDF2
 
