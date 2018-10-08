@@ -167,10 +167,15 @@
             "name": "MurderBox.png"
         },
         {
+            "assigned_to": "xsong21",
             "desc": "",
-            "name": "visualizationC.R"
+            "name": "visualizationC.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Total_Murders.png"
         }
     ],
-    "updated_at": "2018-10-08 16:16:29",
+    "updated_at": "2018-10-08 16:32:38",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
