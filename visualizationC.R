@@ -31,7 +31,10 @@ myPlot10
 
 #5) Generate a third bar chart, the same as the previous step, 
 #but also showing percentOver18 as the color of the bar
-
+myPlot11 <- ggplot(merged,aes(x=reorder(stateNames,-MurderNumber),y=MurderNumber, width=.5))
+myPlot11 = myPlot11 + theme(axis.text.x = element_text(angle = 90))
+myPlot11 = myPlot11 + geom_col(aes(fill=percentOver18)) + ggtitle("Total Murders")
+myPlot11
 
 
 
