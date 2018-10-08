@@ -101,6 +101,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "visualizationC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot6",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizationB.R",
+            "target": "populationBox.png"
         }
     ],
     "nodes": [
@@ -150,6 +160,6 @@
             "name": "populationBox.png"
         }
     ],
-    "updated_at": "2018-10-08 15:52:30",
+    "updated_at": "2018-10-08 15:52:48",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
