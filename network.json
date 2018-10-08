@@ -41,7 +41,12 @@
             "target": "population.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
             "source": "MergeArrests.R",
             "target": "visualization.R"
         }
@@ -72,6 +77,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-08 15:28:56",
+    "updated_at": "2018-10-08 15:29:11",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
