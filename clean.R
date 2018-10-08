@@ -14,7 +14,8 @@ head(popState)
 arrests <- USArrests
 head(arrests)
 
-po[Statwrite.csv(popState, file = "popState.csv")
+popState
+write.csv(popState, file = "popState.csv")
 write.csv(arrests, file = "arrests.csv")
 
 
