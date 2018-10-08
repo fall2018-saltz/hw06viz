@@ -110,6 +110,17 @@
             ],
             "source": "visualizationB.R",
             "target": "MurderBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedDF2",
+                    "output": "mergedDF2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "visualizationC.R"
         }
     ],
     "nodes": [
@@ -160,6 +171,6 @@
             "name": "visualizationC.R"
         }
     ],
-    "updated_at": "2018-10-08 16:16:12",
+    "updated_at": "2018-10-08 16:16:29",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
