@@ -70,6 +70,16 @@
             ],
             "source": "visualization.R",
             "target": "Assault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot4",
+                    "type": "png"
+                }
+            ],
+            "source": "visualization.R",
+            "target": "UrbanPop.png"
         }
     ],
     "nodes": [
@@ -107,6 +117,6 @@
             "name": "UrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-08 15:40:03",
+    "updated_at": "2018-10-08 15:40:25",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
