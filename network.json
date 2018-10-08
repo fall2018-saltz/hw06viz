@@ -37,7 +37,7 @@
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "population.png"
         },
         {
@@ -49,7 +49,7 @@
                 }
             ],
             "source": "MergeArrests.R",
-            "target": "visualization.R"
+            "target": "visualizationB.R"
         },
         {
             "ports": [
@@ -58,7 +58,7 @@
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "murder.png"
         },
         {
@@ -68,7 +68,7 @@
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "Assault.png"
         },
         {
@@ -78,7 +78,7 @@
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "UrbanPop.png"
         },
         {
@@ -88,7 +88,7 @@
                     "type": "png"
                 }
             ],
-            "source": "visualization.R",
+            "source": "visualizationB.R",
             "target": "Rape.png"
         },
         {
@@ -120,12 +120,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "xsong21",
-            "desc": "",
-            "name": "visualization.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "population.png"
         },
         {
@@ -141,10 +135,18 @@
             "name": "Rape.png"
         },
         {
+            "assigned_to": "xsong21",
             "desc": "",
-            "name": "visualization2.R"
+            "name": "visualization2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "",
+            "name": "visualizationB.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-08 15:43:52",
+    "updated_at": "2018-10-08 15:45:48",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
