@@ -16,3 +16,4 @@ myPlot2 <- myPlot2 + aes(x=Murder)
 myPlot2 <- myPlot2 + geom_histogram(bins = 30)
 myPlot2
 
+#Then build similar code to create histograms of each of the otherthree variables in the merged data frame. What parameter will you have to adjust to make the other histograms look right?
