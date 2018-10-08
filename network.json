@@ -145,8 +145,11 @@
             "desc": "",
             "name": "visualizationC.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "populationBox.png"
         }
     ],
-    "updated_at": "2018-10-08 15:46:02",
+    "updated_at": "2018-10-08 15:52:30",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
