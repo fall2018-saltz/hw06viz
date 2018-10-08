@@ -46,7 +46,9 @@ myPlot6
 myPlot7 <- ggplot(merged,aes(y = Murder)) + geom_boxplot()
 myPlot7
 
-#6) Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
+#6) Create a block comment explaining which visualization (boxplot or histogram) 
+#you thought was more helpful (explain why)
+#Answer: boxplots are more useful. Because it tells you the maximum, minimum and median 
 
 
 
