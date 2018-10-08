@@ -141,8 +141,11 @@
         },
         {
             "name": "populationBox.png"
+        },
+        {
+            "name": "MurderBox.png"
         }
     ],
-    "updated_at": "2018-10-08 16:10:43",
+    "updated_at": "2018-10-08 16:12:11",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
