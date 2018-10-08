@@ -50,6 +50,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "visualization.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlot2",
+                    "type": "png"
+                }
+            ],
+            "source": "visualization.R",
+            "target": "murder.png"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "murder.png"
         }
     ],
-    "updated_at": "2018-10-08 15:30:56",
+    "updated_at": "2018-10-08 15:32:47",
     "url": "https://github.com/fall2018-saltz/hw06viz"
 }
